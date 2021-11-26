@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <version>null</version>
+        <id>datatables.net-staterestore-zf</id>
+        <description>This is StateRestore for DataTables with styling for [Foundation](https://get.foundation/)</description>
+        <repository type="git" url="https://github.com/DataTables/Dist-DataTables-StateRestore-Foundation.git"/>
+        <authors>SpryMedia Ltd</authors>
+        <projectUrl>http://datatables.net</projectUrl>
+        <license type="expression">MIT</license>
+        <tags>StateRestore  stateSave  state reload  Foundation  Datatables jQuery table</tags>
+        <dependencies>
+            <dependency id="datatables.net-staterestore" version="null"/>
+            <dependency id="datatables.net-zf" version="1.11.3"/>
+        </dependencies>
+        <contentFiles>
+            <files include="**/*" buildAction="Content"/>
+        </contentFiles>
+    </metadata>
+    <files>
+        <file src="js/stateRestore.foundation.js" target="content\Scripts"/>
+        <file src="js/stateRestore.foundation.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/stateRestore.foundation.min.js" target="content\Scripts"/>
+        <file src="js/stateRestore.foundation.min.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="css/stateRestore.foundation.css" target="content\Content"/>
+        <file src="css/stateRestore.foundation.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="css/stateRestore.foundation.min.css" target="content\Content"/>
+        <file src="css/stateRestore.foundation.min.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="types/stateRestore.foundation.d.ts" target="content\Scripts"/>
+        <file src="types/stateRestore.foundation.d.ts" target="contentFiles\any\any\wwwroot\js"/>
+    </files>
+</package>
+
