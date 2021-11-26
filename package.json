@@ -4,7 +4,7 @@
     "main": "js/stateRestore.foundation.js",
     "style": "css/stateRestore.foundation.css",
     "types": "./types/stateRestore.foundation.d.ts",
-    "version": "null",
+    "version": "1.0.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -12,9 +12,9 @@
     ],
     "keywords": [
         "StateRestore",
- "stateSave",
- "state",
-"reload",
+        "stateSave",
+        "state",
+        "reload",
         "Foundation",
         "Datatables",
         "jQuery",
