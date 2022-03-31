@@ -12,9 +12,9 @@
     ],
     "keywords": [
         "StateRestore",
-        "stateSave",
-        "state",
-        "reload",
+ "stateSave",
+ "state",
+"reload",
         "Foundation",
         "Datatables",
         "jQuery",
@@ -23,8 +23,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-staterestore": ">=1.0.1",
-        "datatables.net-zf": ">=1.11.3",
+        "datatables.net-staterestore": ">=1.1.0",
+        "datatables.net-zf": ">=1.11.5",
         "jquery": ">=1.7"
     },
     "moduleType": [
