@@ -4,7 +4,7 @@
     "main": "js/stateRestore.foundation.js",
     "style": "css/stateRestore.foundation.css",
     "types": "./types/stateRestore.foundation.d.ts",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -23,8 +23,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-staterestore": ">=1.1.0",
-        "datatables.net-zf": ">=1.11.5",
+        "datatables.net-staterestore": ">=1.1.1",
+        "datatables.net-zf": ">=1.12.1",
         "jquery": ">=1.7"
     },
     "moduleType": [
