@@ -1,0 +1,17 @@
+{
+    "js": [
+        "js/stateRestore.foundation.js",
+        "js/stateRestore.foundation.min.js",
+        "js/stateRestore.foundation.min.mjs",
+        "js/stateRestore.foundation.mjs"
+    ],
+    "css": [
+        "css/stateRestore.foundation.css",
+        "css/stateRestore.foundation.min.css"
+    ],
+    "types": [
+        "types/stateRestore.foundation.d.ts"
+    ],
+    "src-repo": "http://github.com/DataTables/StateRestore",
+    "last-tag": "1.1.1"
+}

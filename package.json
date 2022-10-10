@@ -2,12 +2,14 @@
     "name": "datatables.net-staterestore-zf",
     "description": "StateRestore for DataTables with styling for [Foundation](https://get.foundation/)",
     "main": "js/stateRestore.foundation.js",
+    "module": "js/stateRestore.foundation.mjs",
     "style": "css/stateRestore.foundation.css",
     "types": "./types/stateRestore.foundation.d.ts",
     "version": "1.1.1",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
+        "js/**/*.mjs",
         "types/**/*.d.ts"
     ],
     "keywords": [
