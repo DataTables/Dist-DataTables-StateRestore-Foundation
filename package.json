@@ -4,7 +4,7 @@
     "main": "js/stateRestore.foundation.js",
     "module": "js/stateRestore.foundation.mjs",
     "style": "css/stateRestore.foundation.css",
-    "types": "./types/stateRestore.foundation.d.ts",
+    "types": "./types/types.d.ts",
     "version": "1.1.1",
     "files": [
         "css/**/*.css",
