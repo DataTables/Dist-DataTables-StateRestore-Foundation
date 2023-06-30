@@ -10,10 +10,9 @@
         "css/stateRestore.foundation.min.css"
     ],
     "types": [
-        "types/stateRestore.foundation.d.ts",
-        "types/types.d.ts"
+        "types/stateRestore.foundation.d.ts"
     ],
     "src-repo": "http://github.com/DataTables/StateRestore",
     "last-tag": "1.2.2",
-    "last-sync": "c8e4eb357a28a8736642c423ff145a9f7e90a66c"
+    "last-sync": ""
 }
