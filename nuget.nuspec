@@ -11,7 +11,7 @@
         <tags>StateRestore  stateSave  state reload  Foundation  Datatables table</tags>
         <dependencies>
             <dependency id="datatables.net-staterestore" version="2.0.0"/>
-            <dependency id="datatables.net-zf" version="^3"/>
+            <dependency id="datatables.net-zf" version="[3.0.0, 4.0.0)"/>
         </dependencies>
         <contentFiles>
             <files include="**/*" buildAction="Content"/>
