@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-staterestore-zf",
     "description": "StateRestore for DataTables with styling for [Foundation](https://get.foundation/)",
-    "main": "js/stateRestore.foundation.js",
-    "module": "js/stateRestore.foundation.mjs",
-    "style": "css/stateRestore.foundation.css",
+    "main": "./js/stateRestore.foundation.js",
+    "module": "./js/stateRestore.foundation.mjs",
+    "style": "./css/stateRestore.foundation.css",
     "types": "./types/stateRestore.foundation.d.ts",
     "version": "2.0.1",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "StateRestore",
@@ -37,5 +36,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/StateRestore.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/stateRestore.foundation.d.ts",
+            "import": "./js/stateRestore.foundation.mjs",
+            "default": "./js/stateRestore.foundation.mjs",
+            "require": "./js/stateRestore.foundation.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/stateRestore.foundation.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
