@@ -40,9 +40,10 @@
     "exports": {
         ".": {
             "types": "./types/stateRestore.foundation.d.ts",
+            "style": "./css/stateRestore.foundation.css",
             "import": "./js/stateRestore.foundation.mjs",
-            "default": "./js/stateRestore.foundation.mjs",
-            "require": "./js/stateRestore.foundation.js"
+            "require": "./js/stateRestore.foundation.js",
+            "default": "./js/stateRestore.foundation.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
